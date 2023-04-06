@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBuilder.cpp">
+      <Filter>UI\MenuBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="VersusMenu.cpp">
+      <Filter>UI\MenuBuilder\VersusMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintConsole.cpp">
+      <Filter>UI\ConsoleAdditions\PrintConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="Army1v1Menu.cpp">
+      <Filter>UI\MenuBuilder\Army1v1Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CharPrinter.cpp">
+      <Filter>UI\ConsoleAdditions\CharPrinter</Filter>
+    </ClCompile>
+    <ClCompile Include="Army3v3Menu.cpp">
+      <Filter>UI\MenuBuilder\Army3v3Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScreenBuilder.cpp">
+      <Filter>UI\BattleScreenBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPrinter.cpp">
+      <Filter>UI\ConsoleAdditions\MenuPrinter</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePrinter.cpp">
+      <Filter>UI\ConsoleAdditions\BattlePrinter</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle1v1Screen.cpp">
+      <Filter>UI\BattleScreenBuilder\Battle1v1Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle3v3Screen.cpp">
+      <Filter>UI\BattleScreenBuilder\Battle3v3Screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{6e5d0cb0-8e2c-42dd-a1ca-4d536f4f9f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Music">
+      <UniqueIdentifier>{0fa7dd6a-b2cd-4b1e-9835-3d0658a45c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{0b90d944-092e-4a44-9af1-dd38d43a9903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MenuBuilder">
+      <UniqueIdentifier>{02c9f5e8-ea9f-414b-b550-34725013c60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\BattleScreenBuilder">
+      <UniqueIdentifier>{6989aeef-f08e-4d0b-815d-d75522ee09f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MenuBuilder\VersusMenu">
+      <UniqueIdentifier>{3e6bb211-114c-44ac-a83b-7d8f7a7f11a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MenuBuilder\Army1v1Menu">
+      <UniqueIdentifier>{a745f0d5-1848-441d-b6dc-27478a2b4e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ConsoleAdditions">
+      <UniqueIdentifier>{5b0fb829-fd3a-409d-b8f5-77a4a13548b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ConsoleAdditions\PrintConsole">
+      <UniqueIdentifier>{40828697-b3ba-40c3-b251-a4b152094556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ConsoleAdditions\CharPrinter">
+      <UniqueIdentifier>{dbedd652-4379-4ff7-b580-5c2a0e824359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MenuBuilder\Army3v3Menu">
+      <UniqueIdentifier>{aee53efa-47e9-44d6-b6b1-e6ba9c54663b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ConsoleAdditions\MenuPrinter">
+      <UniqueIdentifier>{ae419fa5-cddc-4f51-98ea-b24c47920f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ConsoleAdditions\BattlePrinter">
+      <UniqueIdentifier>{ae45d9fa-d8ce-4e4f-b3ac-56eeaea3598f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\BattleScreenBuilder\Battle1v1Screen">
+      <UniqueIdentifier>{fa2875b4-9fdc-4e2c-966e-07b528b45718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\BattleScreenBuilder\Battle3v3Screen">
+      <UniqueIdentifier>{83ae43c3-b564-49c3-b5f3-0628eca7d0c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Turn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Units.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="Armies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Turn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBuilder.h">
+      <Filter>UI\MenuBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScreenBuilder.h">
+      <Filter>UI\BattleScreenBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="VersusMenu.h">
+      <Filter>UI\MenuBuilder\VersusMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintConsole.h">
+      <Filter>UI\ConsoleAdditions\PrintConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="Army1v1Menu.h">
+      <Filter>UI\MenuBuilder\Army1v1Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CharPrinter.h">
+      <Filter>UI\ConsoleAdditions\CharPrinter</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>UI\ConsoleAdditions</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayer.h">
+      <Filter>UI\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="Armies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuilderIArmy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Army3v3Menu.h">
+      <Filter>UI\MenuBuilder\Army3v3Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePrinter.h">
+      <Filter>UI\ConsoleAdditions\BattlePrinter</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle1v1Screen.h">
+      <Filter>UI\BattleScreenBuilder\Battle1v1Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle3v3Screen.h">
+      <Filter>UI\BattleScreenBuilder\Battle3v3Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Units.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomaticGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
